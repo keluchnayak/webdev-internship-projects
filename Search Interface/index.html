@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Master</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="searchbox-container">
+      <h1>Search Master</h1>
+      <form action="">
+        <div class="search-bar">
+          <input
+            type="text"
+            id="Search"
+            placeholder="Course name.."
+            list="suggestions"
+          />
+          <datalist id="suggestions">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JavaScript"></option>
+            <option value="Responsive Design"></option>
+            <option value="Web Development"></option>
+          </datalist>
+
+          <button type="submit">search</button>
+        </div>
+      </form>
+    </div>
+    <div class="results-container">
+      <h2>Search Results</h2>
+      <ul id="results">
+        <!-- Sample result -->
+        <li><a href="#">Result 1: Example Result</a></li>
+        <li><a href="#">Result 2: Another Example</a></li>
+        <li><a href="#">Result 3: More Examples</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
