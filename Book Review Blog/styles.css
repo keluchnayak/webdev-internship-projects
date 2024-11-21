@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, section {
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .recent-reviews .review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
